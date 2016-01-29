@@ -8,3 +8,5 @@ D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\obj\Debug\ReadFiles
 D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\bin\Debug\ReadFiles.exe
 D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\bin\Debug\ReadFiles.pdb
 D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\obj\Debug\ReadFiles.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\obj\Debug\ReadFiles.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\obj\Debug\ReadFiles.MainForm.resources

@@ -1,0 +1,10 @@
+d:\users\jiaguo\documents\visual studio 2013\Projects\ReadFiles\ReadFiles\obj\Debug\ReadFiles.csprojResolveAssemblyReference.cache
+d:\users\jiaguo\documents\visual studio 2013\Projects\ReadFiles\ReadFiles\bin\Debug\ReadFiles.exe
+d:\users\jiaguo\documents\visual studio 2013\Projects\ReadFiles\ReadFiles\bin\Debug\ReadFiles.pdb
+d:\users\jiaguo\documents\visual studio 2013\Projects\ReadFiles\ReadFiles\obj\Debug\ReadFiles.exe
+d:\users\jiaguo\documents\visual studio 2013\Projects\ReadFiles\ReadFiles\obj\Debug\ReadFiles.pdb
+D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\obj\Debug\ReadFiles.exe
+D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\obj\Debug\ReadFiles.pdb
+D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\bin\Debug\ReadFiles.exe
+D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\bin\Debug\ReadFiles.pdb
+D:\Documents\Visual Studio 2013\Projects\ReadFiles\ReadFiles\obj\Debug\ReadFiles.csprojResolveAssemblyReference.cache

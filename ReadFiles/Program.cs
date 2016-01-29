@@ -10,25 +10,30 @@ namespace ReadFiles
     {
         static void Main(string[] args)
         {
-            while (true)
+            StreamWriter myWriter = new StreamWriter("pix4d.txt");
+            StreamReader myReader = new StreamReader("test.txt");
+            string line = "";
+            int start_line_num = 0;
+            string file_name = "IMG";
+            int file_name_ad = 0;
+            while ( (line = myReader.ReadLine()) != null)
             {
-
-                StreamReader myReader = new StreamReader("test.txt");
-                string line = "";
-                string cmd_line;
-                int cmd_line_num = 0;
-                Console.WriteLine("Please input line num");
-                cmd_line = Console.ReadLine();
-                cmd_line_num = int.Parse(cmd_line);
-                for(int i=0; i<cmd_line_num-1; i++)
+                for(int j=0; j<4; j++)
                 {
-                    line = myReader.ReadLine();           
+                    start_line_num = line.IndexOf(',');
+                    line = line.Remove(0,start_line_num+1);
                 }
-                line = myReader.ReadLine();
-                Console.WriteLine(line);
-                
-
+                for(int i=0; i<6; i++)
+                {
+                    start_line_num = line.LastIndexOf(',');
+                    line = line.Remove(start_line_num, line.Length - start_line_num);
+                }
+                file_name_ad++;
+                line = file_name + file_name_ad + ".jpg," + line;
+                myWriter.WriteLine(line);
             }
+            myWriter.Flush();
+            myWriter.Close();
         }
     }
 }

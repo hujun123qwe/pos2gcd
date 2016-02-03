@@ -61,7 +61,9 @@ namespace ReadFiles
             string file_name = txt_file_name.Text;
             string line = "";
             int start_line_num = 0;
-            int file_name_ad = 0;
+            int file_number = int.Parse(txt_file_number.Text);
+            int file_name_start = int.Parse(txt_file_name_start.Text);
+            int end_file_name = file_name_start + file_number;
             while ((line = pos_reader.ReadLine()) != null)
             {
                 for (int j = 0; j < 4; j++)
@@ -74,8 +76,12 @@ namespace ReadFiles
                     start_line_num = line.LastIndexOf(',');
                     line = line.Remove(start_line_num, line.Length - start_line_num);
                 }
-                file_name_ad++;
-                line = file_name + file_name_ad + ".jpg," + line;
+                if (file_name_start > end_file_name)
+                {
+                    MessageBox.Show("文件名大于文件数");
+                }
+                line = file_name + '0' + file_name_start + ".jpg," + line;
+                file_name_start++;
                 txt_gsd.AppendText(line);
                 txt_gsd.AppendText("\r\n");
             }
